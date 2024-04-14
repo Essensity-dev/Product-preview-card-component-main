@@ -17,7 +17,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: hsl(30, 38%, 92%);
 }
 
@@ -25,15 +25,14 @@ main {
     display: flex;
     background-color: white;
     color: black;
-    width: 630px;
-    height: 450px;
+    width: 39rem;
+    height: 28rem;
     border-radius: 10px;
     padding-bottom: 30px;
 }
 
 img { 
     max-width: 300px;
-    height: auto;
     border-radius: 10px 0 0 10px;
 }
 
